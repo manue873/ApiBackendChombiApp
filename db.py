@@ -12,7 +12,7 @@ from sqlalchemy.orm import sessionmaker, DeclarativeBase, Session
 # Ejemplo: postgresql+psycopg2://postgres:1234@localhost:5432/chombi
 DB_URL = os.environ.get(
     "CHOMBI_DB_URL",
-    "postgresql://chombidb_user:lTLNfZGwXodb6gZufDAD6j8vlNMPtHok@dpg-d2vtk8adbo4c73b1us00-a/chombidb"
+    "postgresql+psycopg://chombidb_user:lTLNfZGwXodb6gZufDAD6j8vlNMPtHok@dpg-d2vtk8adbo4c73b1us00-a.oregon-postgres.render.com:5432/chombidb?sslmode=require"
 )
 
 engine = create_engine(DB_URL, pool_pre_ping=True, future=True)
