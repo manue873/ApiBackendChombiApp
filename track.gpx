@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="ChombiDemo" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Ruta Piura Demo</name>
+    <trkseg>
+      <!-- Plaza de Armas de Piura -->
+      <trkpt lat="-5.19449" lon="-80.63282"><time>2025-09-04T13:00:00Z</time></trkpt>
+      <!-- Av. Grau -->
+      <trkpt lat="-5.19595" lon="-80.62980"><time>2025-09-04T13:01:00Z</time></trkpt>
+      <!-- UDEP -->
+      <trkpt lat="-5.20250" lon="-80.62900"><time>2025-09-04T13:02:00Z</time></trkpt>
+      <!-- Real Plaza Piura -->
+      <trkpt lat="-5.21062" lon="-80.62708"><time>2025-09-04T13:03:00Z</time></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
