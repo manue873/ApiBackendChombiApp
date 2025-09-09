@@ -1,6 +1,19 @@
+# --- Core framework ---
 fastapi==0.115.0
 uvicorn[standard]==0.30.6
-SQLAlchemy==2.0.32
-psycopg2-binary==2.9.9
+
+# --- Database ---
+sqlalchemy==2.0.35
+psycopg[binary]==3.2.1
+
+# --- Data validation ---
 pydantic==2.9.2
+
+# --- Env vars ---
 python-dotenv==1.0.1
+
+# --- Migrations (opcional pero recomendado) ---
+alembic==1.13.2
+
+# --- Starlette (sub-dep de FastAPI, se fija versión para evitar conflictos) ---
+starlette==0.38.2
